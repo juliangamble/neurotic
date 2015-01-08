@@ -69,7 +69,7 @@ Both ATrait and ATrait2 implements the single-arity version of `g`; what happens
 ```clojure
 my-ns=> (deftype AType [] :traits [ATrait2 ATrait])
 my_ns.AType
-my-ns=> (let [a (AType2.)] [(g a) (g a :foo) (f a)])
+my-ns=> (let [a (AType.)] [(g a) (g a :foo) (f a)])
 [1 :foo 0]
 ```
 
