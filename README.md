@@ -114,7 +114,8 @@ Everything shown to work with `deftype` works with `defrecord` too.
 my-ns=>  (defprotocol AProtocol2 (h [_]))
 AProtocol2
 my-ns=> (deftrait ATrait5 [] (h [_] 1))
-#'my-ns/ATrait5
+Exception h declaration not found in none of the protocols/interfaces implemeted by trait ATrait5  neurotic.traits/deftrait (traits.clj:62)
+;Note that this will hold you up from going further...
 my-ns=> (deftype AType8 [])
 my_ns.AType8
 my-ns=> (extend AType8 :traits [ATrait2 ATrait5])
