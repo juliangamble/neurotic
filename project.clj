@@ -1,4 +1,4 @@
-(defproject bronsa/neurotic "0.3.5"
+(defproject bronsa/neurotic "0.3.6"
   :description "Get traits in clojure"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
